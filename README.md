@@ -27,32 +27,10 @@ aliados à otimização para dispositivos VR standalone.
 
 ------------------------------------------------------------------------
 
-## 🎯 Objetivos Acadêmicos
-
-O projeto aborda os seguintes conceitos da disciplina:
-
--   Pipeline de renderização
--   Rasterização
--   Iluminação (baked e realtime)
--   Shadow Mapping
--   Overdraw
--   Batching e Instancing
--   LOD (Level of Detail)
--   Otimização gráfica para hardware móvel
--   Frame budget em aplicações VR
-
-------------------------------------------------------------------------
-
 ## 🧠 Desafios Técnicos
 
 Durante o desenvolvimento, o principal desafio foi otimizar o desempenho
-para rodar de forma estável no Meta Quest 3, considerando:
-
--   Renderização dupla (um frame por olho)
--   Limitações de GPU mobile
--   Alto custo de sombras dinâmicas
--   Overdraw causado por transparências (vegetação)
--   Impacto de post-processing em VR
+para rodar de forma estável no Meta Quest 3.
 
 Foram aplicadas estratégias como:
 
@@ -108,26 +86,12 @@ Ou instalar via SideQuest.
 
 ------------------------------------------------------------------------
 
-## 📊 Considerações sobre Performance
-
-Aplicações em VR standalone possuem orçamento de aproximadamente:
-
--   \~13ms por frame em 72Hz
-
-Como a renderização é feita duas vezes (um olho para cada lente),
-qualquer efeito gráfico pesado impacta diretamente na performance.
-
-O projeto foi otimizado para manter estabilidade e responsividade da
-física da bola.
-
-------------------------------------------------------------------------
-
 ## 👨‍🎓 Autor
 
 Francisco Del'Gaudio
 
 Disciplina: Computação Gráfica\
-Instituição: \[Adicionar nome da universidade\]
+Instituição: \[Universidade Estadual do Oeste do Paraná\]
 
 ------------------------------------------------------------------------
 
