@@ -88,7 +88,8 @@ Ou instalar via SideQuest.
 
 ## 👨‍🎓 Autor
 
-Francisco Del'Gaudio
+Francisco Castro Del'Gaudio Junior
+Hugo Gustavo Cordeiro
 
 Disciplina: Computação Gráfica\
 Instituição: \[Universidade Estadual do Oeste do Paraná\]
